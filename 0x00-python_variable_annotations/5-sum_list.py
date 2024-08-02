@@ -1,6 +1,13 @@
-#!/usr/bin/python3
+#!/usr/bin/env python3
+"""
+Module Doc
+"""
 
-def sum_list(input_list: list[float]) -> float:
+
+def sum_list(input_list: List[float]) -> float:
+    """
+    function Doc
+    """
     result = 0
     for i in input_list:
         result += i
